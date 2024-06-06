@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/icon/ic_proParData_f.png</file>
+        <file>Resource/icon/ic_proParData_t.png</file>
+        <file>Resource/icon/ic_settings_f.png</file>
+        <file>Resource/icon/ic_settings_t.png</file>
+        <file>Resource/icon/ic_mainwindow.png</file>
+        <file>Resource/translation/Ch.qm</file>
+        <file>Resource/translation/Ch.ts</file>
+        <file>Resource/translation/En.qm</file>
+        <file>Resource/translation/En.ts</file>
+        <file>Resource/icon/ic_mainwindow1.png</file>
+        <file>Resource/icon/ic_proParData1_f.png</file>
+        <file>Resource/icon/ic_proParData1_t.png</file>
+        <file>Resource/icon/ic_settings1_f.png</file>
+        <file>Resource/icon/ic_settings1_t.png</file>
+        <file>Resource/icon/ic_mainwindow.ico</file>
+    </qresource>
+</RCC>
