@@ -1,0 +1,41 @@
+﻿#ifndef COMMAND_H
+#define COMMAND_H
+
+#include <QObject>
+
+#include <Public/cn.h>
+#include "Public/SD.h"
+
+class Command : public QObject
+{
+    Q_OBJECT
+public:
+    explicit Command(QObject *parent = nullptr);
+
+public:
+    // 运行参数查询
+    static QByteArray queryRunPar();
+    // 查询蓝牙名称
+    static QByteArray queryBlueTooth();
+    // 设置蓝牙名称
+    static QByteArray setBlueTooth(QByteArray data);
+    // 查询制造信息
+    static QByteArray queryMadeInfo();
+    // 设置制造信息
+    static QByteArray setMadeInfo(QByteArray data);
+    // 查询可用焊接包
+    static QByteArray query_avail_weld();
+    // 查询客户焊接包
+    static QByteArray query_cus_weld(PACKAGE_NUMBER package);
+    // 查询当前焊接包(网络连接)
+    static QByteArray query_curr_weld();
+    // 设置当前焊接包
+    static QByteArray set_curr_weld(QByteArray data);
+    // 存储当前焊接包
+    static QByteArray save_curr_weld();
+
+signals:
+
+};
+
+#endif // COMMAND_H
