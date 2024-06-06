@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/RES/ICON">
+        <file>Resources/icon/ic_connectNet.png</file>
+        <file>Resources/icon/ic_developerBoard.png</file>
+        <file>Resources/icon/ic_SysInfo.png</file>
+        <file>Resources/icon/ic_mainWindow.png</file>
+        <file>Resources/icon/ic_mainTest.png</file>
+        <file>Resources/icon/ic_synTest.png</file>
+    </qresource>
+</RCC>
